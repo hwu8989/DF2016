@@ -27,7 +27,7 @@ def hello():
     app.logger.info('Info')
     return 'Hello World!'
 
-@app.route('/contacts')
+@app.route('/accounts')
 def contacts():
     try:
         my_list = []
